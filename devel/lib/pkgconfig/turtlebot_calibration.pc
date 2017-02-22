@@ -1,0 +1,8 @@
+prefix=/home/namwob44/new_ws/devel
+
+Name: turtlebot_calibration
+Description: Description of turtlebot_calibration
+Version: 2.3.6
+Cflags: -I/home/namwob44/new_ws/devel/include
+Libs: -L/home/namwob44/new_ws/devel/lib 
+Requires: std_msgs message_runtime

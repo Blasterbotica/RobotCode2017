@@ -1,0 +1,8 @@
+prefix=/home/namwob44/turtlebot/devel
+
+Name: turtlebot_teleop
+Description: Description of turtlebot_teleop
+Version: 2.3.12
+Cflags: 
+Libs: -L/home/namwob44/turtlebot/devel/lib 
+Requires: roscpp geometry_msgs joy

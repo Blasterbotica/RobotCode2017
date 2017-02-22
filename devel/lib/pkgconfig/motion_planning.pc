@@ -1,0 +1,8 @@
+prefix=/home/namwob44/new_ws/devel
+
+Name: motion_planning
+Description: Description of motion_planning
+Version: 0.0.0
+Cflags: -I/home/namwob44/new_ws/src/motion_planning/include
+Libs: -L/home/namwob44/new_ws/devel/lib -lmotion_planning_library
+Requires: geometry_msgs sensor_msgs nav_msgs roscpp std_msgs message_filters actionlib move_base_msgs tf_conversions eigen_conversions actionlib

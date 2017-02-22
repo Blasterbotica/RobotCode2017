@@ -1,0 +1,8 @@
+prefix=/home/namwob44/new_ws/devel
+
+Name: turtlebot_msgs
+Description: Description of turtlebot_msgs
+Version: 2.2.1
+Cflags: -I/home/namwob44/new_ws/devel/include
+Libs: -L/home/namwob44/new_ws/devel/lib 
+Requires: std_msgs sensor_msgs std_srvs message_runtime

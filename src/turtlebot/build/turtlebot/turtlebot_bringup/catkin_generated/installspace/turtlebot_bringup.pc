@@ -1,0 +1,8 @@
+prefix=/home/namwob44/turtlebot/install
+
+Name: turtlebot_bringup
+Description: Description of turtlebot_bringup
+Version: 2.3.12
+Cflags: 
+Libs: -L/home/namwob44/turtlebot/install/lib 
+Requires: 

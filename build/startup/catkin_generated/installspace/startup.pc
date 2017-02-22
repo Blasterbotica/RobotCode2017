@@ -1,0 +1,8 @@
+prefix=/home/namwob44/new_ws/install
+
+Name: startup
+Description: Description of startup
+Version: 0.0.0
+Cflags: -I/home/namwob44/new_ws/install/include
+Libs: -L/home/namwob44/new_ws/install/lib -lstartup_library
+Requires: geometry_msgs sensor_msgs nav_msgs freenect freenect_launch roscpp std_msgs message_filters actionlib move_base_msgs tf_conversions eigen_conversions actionlib

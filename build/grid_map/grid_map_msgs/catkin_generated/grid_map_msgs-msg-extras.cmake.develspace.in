@@ -1,0 +1,2 @@
+set(grid_map_msgs_MESSAGE_FILES "/home/namwob44/new_ws/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg;/home/namwob44/new_ws/src/grid_map/grid_map_msgs/msg/GridMap.msg")
+set(grid_map_msgs_SERVICE_FILES "/home/namwob44/new_ws/src/grid_map/grid_map_msgs/srv/GetGridMap.srv;/home/namwob44/new_ws/src/grid_map/grid_map_msgs/srv/GetGridMapInfo.srv;/home/namwob44/new_ws/src/grid_map/grid_map_msgs/srv/ProcessFile.srv")

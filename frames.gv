@@ -1,0 +1,10 @@
+digraph G {
+"camera_link" -> "camera_depth_frame"[label="Broadcaster: /camera_base_link\nAverage rate: 10.198 Hz\nMost recent transform: 1487270812.521 ( -0.029 sec old)\nBuffer length: 4.805 sec\n"];
+"camera_link" -> "camera_rgb_frame"[label="Broadcaster: /camera_base_link1\nAverage rate: 10.199 Hz\nMost recent transform: 1487270812.528 ( -0.036 sec old)\nBuffer length: 4.805 sec\n"];
+"camera_rgb_frame" -> "camera_rgb_optical_frame"[label="Broadcaster: /camera_base_link3\nAverage rate: 10.198 Hz\nMost recent transform: 1487270812.529 ( -0.037 sec old)\nBuffer length: 4.805 sec\n"];
+"camera_depth_frame" -> "camera_depth_optical_frame"[label="Broadcaster: /camera_base_link2\nAverage rate: 10.198 Hz\nMost recent transform: 1487270812.531 ( -0.039 sec old)\nBuffer length: 4.805 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1487270812.492"[ shape=plaintext ] ;
+ }->"camera_link";
+}

@@ -1,0 +1,8 @@
+prefix=/home/namwob44/new_ws/devel
+
+Name: turtlebot_gazebo
+Description: Description of turtlebot_gazebo
+Version: 2.2.2
+Cflags: 
+Libs: -L/home/namwob44/new_ws/devel/lib 
+Requires: 

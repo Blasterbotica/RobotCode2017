@@ -1,0 +1,8 @@
+prefix=/home/namwob44/turtlebot/devel
+
+Name: turtlebot_description
+Description: Description of turtlebot_description
+Version: 2.3.12
+Cflags: 
+Libs: -L/home/namwob44/turtlebot/devel/lib 
+Requires: urdf xacro
